@@ -1,0 +1,72 @@
+
+/*============================================ Defaults starts ============================================*/
+*{margin: 0;padding: 0;}
+a, a:hover {text-decoration: none;}
+img {width: 100%;height: 100%;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif; color: #fff;}
+p, span {font-family: 'Roboto', sans-serif;color: #fff;}
+a {font-family: 'Roboto', sans-serif;}
+li{list-style: none;}
+button, button:focus {outline: none;}
+body{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+/*============================================ end of Defaults ============================================*/
+.col-12.py-5 {
+    background: #2b2a2a;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.col-12.py-5 h1 {
+    font-weight: 800;
+}
+
+.col-12.py-5 h1 span {
+    color: #ffd31d;
+}
+
+.light-demo a span, .dark-demo a span {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #2b2a2a;
+    font-weight: 600;
+    font-size: 18px;
+    border-top: 2px solid #424242;
+    color: #fff;
+    transition: .5s;
+}
+
+.light-demo, .dark-demo {
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
+    transition: .5s;
+}
+.dark-demo:hover a span {
+    background: #ffd31d;
+    border-color: #ffea92;
+}
+.light-demo:hover a span{
+    background: #79d70f;
+    border-color: #b0ff58;
+}
+
+.light-demo:hover, .dark-demo:hover {transform: scale(.98);}
+footer.footer {
+    background: #2b2a2a;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.footer-content h6 {
+    margin: 0;
+}
+.footer-content h6 span{
+  color: #ffd31d;
+}
